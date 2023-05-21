@@ -1,0 +1,55 @@
+Conf inicial =====
+⁫git config --global user.name "tomaztecnolo"
+⁫git config --global user.email "tomaztecnolo@gmail.com"
+
+verificar se deu certo:
+git config user.name:
+tomaztecnolo...
+
+git config user.email
+tomaztecnolo@gmail.com...
+
+--------- comandos  no terminal git bash -------
+
+-git clone --------------linkdo repositorio criado no site
+-cd main
+-git status    //tem que acessar pasta (main)
+-git checkout -b pagina =( Aqui quando vc trabalha em empresa vc criar separado na"main") -git branch ver quantas branchs tem 
+-adiciona o conteúdo....
+-git add .
+-git status 
+-git commit -m " mensagem aqui "
+-git push origin  novos-arquivos ou -git push
+-git pull :para buscar do repositorio..
+-touch .gitignore  (coloca todos os nome de arquivos dentro dessa que vc não quer que apareça)
+
+-git merge pagina (para juntar a pagina na main)
+
+
+-------------------------------------
+
+
+-git reflog = ver  versoes do codigo sem ter enviado
+-gir reset --hard "id do reflog"
+git checkout  index.html : ex:serve para voltar ou arquvos original se vc não enviou ainda
+
+git log :serve para ver todos os commit
+git reset --hard origin/main : resetar ultimo commit 
+
+___________________________________________________________
+
+Criar  branch: para criar trabalhos em equipes:
+
+-git branch  =verifica quantos branch tem
+-git branch -b page = Aqui cria uma branch
+-git checkout nomedabrach =Aqui altera de branch..
+-git merge nomaDabranch que vc quer juntar 
+
+------------------------------------------------------------------important
+-git branch -b "nome" =Ele cria uma branch e ja troca para ela ....
+
+-git stash volta para o status atual caso tenho feito mudança
+-git stash list´
+
+
+-git stash apply 0 ou 1
